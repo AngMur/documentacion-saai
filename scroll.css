@@ -1,0 +1,60 @@
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+
+::-webkit-scrollbar-thumb {
+	background-color: #333;
+	border-radius: 6px;
+}
+
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+
+::-webkit-scrollbar-button {
+	display: none;
+	/* Ocultar el botón */
+}
+
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+	display: none;
+}
+
+/* dasdasd */
+
+#navbar{
+	scroll-behavior: smooth;
+}
+
+#navbar::-webkit-scrollbar {
+	width: 8px;
+}
+
+
+#navbar::-webkit-scrollbar-thumb {
+	background-color: #888;
+	border-radius: 6px;
+}
+
+
+#navbar::-webkit-scrollbar-track {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#navbar::-webkit-scrollbar-button {
+	display: none;
+	/* Ocultar el botón */
+}
+
+
+#navbar::-webkit-scrollbar-button:start:decrement,
+#navbar::-webkit-scrollbar-button:end:increment {
+	display: none;
+}
